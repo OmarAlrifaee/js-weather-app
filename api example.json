@@ -1,0 +1,31 @@
+{
+  "coord": { "lon": 36.2913, "lat": 33.5102 },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "scattered clouds",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 54.72,
+    "feels_like": 53.46,
+    "temp_min": 54.72,
+    "temp_max": 54.72,
+    "pressure": 1018,
+    "humidity": 76,
+    "sea_level": 1018,
+    "grnd_level": 937
+  },
+  "visibility": 10000,
+  "wind": { "speed": 3.91, "deg": 272, "gust": 6.26 },
+  "clouds": { "all": 38 },
+  "dt": 1701906917,
+  "sys": { "country": "SY", "sunrise": 1701923138, "sunset": 1701959211 },
+  "timezone": 10800,
+  "id": 170654,
+  "name": "Damascus",
+  "cod": 200
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--main file-->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--icons-->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <title>weather applecation</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="Enter your city" id="search-box" />
+        <button id="search-button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+      <div class="info">
+        <img src="" id="img" />
+        <h1 class="temp" id="temp"></h1>
+        <h2 class="city" id="city"></h2>
+        <div class="datiles">
+          <div class="wind-speed">
+            <div><i class="fa-solid fa-wind"></i></div>
+            <div>
+              <h3 id="wind-speed"></h3>
+              <h4>wind speed</h4>
+            </div>
+          </div>
+          <div class="humidity">
+            <div class="image-div"><img src="images/humidity.png" /></div>
+            <div>
+              <h3 id="humidity"></h3>
+              <h4>humidity</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>

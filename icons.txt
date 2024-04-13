@@ -1,0 +1,2 @@
+<i class="fa-solid fa-magnifying-glass"></i> => search icon
+<i class="fa-solid fa-wind"></i> => wind
